@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/personal/**)",
+      "Bash(npm create vite@latest . -- --template react)",
+      "Bash(npm init -y)",
+      "Bash(npm install react react-dom uuid)",
+      "Bash(npm install -D vite @vitejs/plugin-react tailwindcss@3 postcss autoprefixer)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(npm run build)",
+      "Bash(timeout 5 npm run dev)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\PC\\.claude\\projects\\d--personal-receipt-generator"
+    ]
+  }
+}
